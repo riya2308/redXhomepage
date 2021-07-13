@@ -144,9 +144,8 @@ padding:  2% 8% 0% 3.54%;
     width: 1442px;
     height: 712px;
     background:url(./images/2.jpg);
+    width:100%;
     opacity: .9;
-
-    
 }
 h2 #adventure{
     position: absolute;
@@ -166,6 +165,7 @@ h2 #adventure{
     top: 373px;
     left: 31.4px;
     margin-bottom: 0%;
+    margin-left: 20px;
 
 }
 #ig2{
@@ -176,6 +176,9 @@ h2 #adventure{
     /* transform: translateY(-75%); */
     transform: translate(5%,-75%);
    margin-bottom: 0%;
+   margin-left: 20px;
+
+   
 }
 
 .hr{
@@ -195,6 +198,7 @@ h2 #adventure{
     width: 1442px;
     height: 712px;
     background:url(./images/2.jpg);
+    width:100%;
     opacity: .9;
     
 }
