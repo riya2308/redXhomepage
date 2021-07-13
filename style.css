@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 *{
+    max-width: 100%;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
 }
 
 nav{
@@ -77,6 +85,9 @@ nav li{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+ul{
+    list-style: none;
+}
 
 .info{
     height: 340.60px;
@@ -118,6 +129,8 @@ padding:  2% 8% 0% 3.54%;
 }
 .images1{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .adventure-text{
@@ -218,13 +231,6 @@ footer ul li{
     color:#F44E3F;
 }
 
-.bg-image{
-    height: 422px;
-    width: 100%;
-    border-radius: 0px;
-    margin-bottom: 8%;
-}
-
 #text4{
     height: 48px;
 width: 327px;
@@ -277,32 +283,50 @@ mix-blend-mode: normal;
 opacity: 0.5;
 margin: 0% 0% 0% 85%;
 background: #F44E3F;
+margin-bottom: 0%;
 
 }
+.container {
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 8%;
+    margin-bottom: 0%;
+}
 
-.button2{
+.container .bg-image{
+    height: 422px;
+    width: 100%;
+    border-radius: 0px;
+    margin-bottom: 8%;
+}
+
+
+.container .button2{
     display: flexbox;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 21px;
-    display: flex;
     align-items: center;
     text-align: center;
-
     color: #FFFFFF;
     background-color: #000000;
-    padding: 6px 22px;
-    position: sticky;
-height: 22px;
-left: 25px;
-right: 24px;
-top: calc(50% - 22px/2 - 0.4px);
+    padding: 6px 30px;
+}
+
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right:75%;
+    margin-left: 20px;
+    transform: translate(5%,-1000%);
 
 }
 
-.h3{
+.container .h3{
     display:block;
     font-family: Roboto;
     font-style: normal;
@@ -311,23 +335,25 @@ top: calc(50% - 22px/2 - 0.4px);
     line-height: 140.62%;
     text-align: center;
     color: #FFFFFF;
-    position: sticky;
-left: 7.08%;
-right: 70.21%;
-top: 15.88%;
-bottom: 72.75%;
+    left: 7.08%;
+    right: 70.21%;
+    height: 48px;
+    width: 327px;
+    left: 102px;
+    top: 67px;
+    transform: translate(15%,-1000%);
+    border-radius: nullpx;
 }
 
-.h4{
+.container .h4{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 32px;
     line-height: 45px;
     color: #FFFFFF;
-    position: sticky;
-left: 8.89%;
-right: 68.4%;
-top: 47.63%;
-bottom: 41.23%;
+    left: 38.89%;
+    right: 68.4%;
+    top: -47.63%;
+    transform: translate(5%,-900%);
 }
